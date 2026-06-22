@@ -18,11 +18,20 @@ The training process of 2-4mm oyster dataset yielded promising results, with sig
 
 - **Accuracy**: The model achieved a peak accuracy of 91% on images with darker backgrounds. However, accuracy tended to decrease with lighter background images, indicating an area for further refinement.
   
-- **User Interface**: This GUI image showcases the oyster counting application, which selects the best model, trained over 500 epochs, to accurately predict the count of oyster seeds in an image. For the sample image, the predicted number of oysters is 69, as displayed in the interface.
+- **Graphic User Interface**: This GUI image showcases the oyster counting application, which selects the best model, trained over 500 epochs, to accurately predict the count of oyster seeds in an image. For the sample image, the predicted number of oysters is 69, as displayed in the interface.
 
  <img src="\2-4mm\results\GUI_prediction.png" alt="Oyster Counting GUI" width="500">
 
+* Oyster Seed Counting GUI: https://github.com/Math-Consultation-Clinic/GUI
 
+## Citation
+
+If you use this work, please cite:
+
+
+Applying Machine Learning Tools to Advance Quality Control in Oyster Nurseries.
+Aquacultural Engineering, 2026.
+https://doi.org/10.1016/j.aquaeng.2026.102772
 
 ## Research Team
 
@@ -51,6 +60,16 @@ Alex P. Mensen-Johnson, Angel Wilson, Austin Louque, Christian Ennis, Fernando H
 <img src="logos/mcclogo.gif" alt="MCC Logo" width="100">
 
 <img src="logos/lsulogo.png" alt="LSU Logo" width="250">
+
+
+## References
+
+
+1. Schmidt, U., Weigert, M., Broaddus, C., & Myers, G. (2018). **Cell Detection with Star-Convex Polygons**. In A. Frangi, J. Schnabel, C. Davatzikos, C. Alberola-López, & G. Fichtinger (Eds.), *Medical Image Computing and Computer Assisted Intervention – MICCAI 2018*. Springer.
+
+2. Weigert, M., Schmidt, U., Haase, R., Sugawara, K., & Myers, G. (2020). **Star-convex Polyhedra for 3D Object Detection and Segmentation in Microscopy**. In *2020 IEEE Winter Conference on Applications of Computer Vision (WACV)*, Snowmass, CO, USA, 3655–3662. https://doi.org/10.1109/WACV45572.2020.9093435
+
+3. M. Weigert and U. Schmidt, **Nuclei Instance Segmentation and Classification in Histopathology Images with Stardist,** 2022 IEEE International Symposium on Biomedical Imaging Challenges (ISBIC), Kolkata, India, 2022, pp. 1-4, doi: 10.1109/ISBIC56247.2022.9854534.
 
 
 
